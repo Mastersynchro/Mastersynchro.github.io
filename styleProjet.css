@@ -1,0 +1,178 @@
+#navigation{
+	display: inline-block;
+	float: left;
+	margin-left: 50px;
+	margin-top: 20px;
+	color : #28d244;
+	font-family: Helvetica;
+}
+
+#live{
+	color: #28d244;
+	display: inline;
+	font-family: Helvetica;
+	text-decoration: none;
+}
+footer {
+	color : white;
+	font-size: 11px;
+	text-align: center;
+	position: relative; 
+	bottom:0px;
+	width:100%;
+	padding-top:50px;
+	height:30px;
+	margin-top: 200px;
+}
+
+#ta1{
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline;
+	color : white;
+	font-family: Helvetica;
+	text-decoration: none;
+
+}
+
+#ta1:hover{
+	cursor: pointer;
+}
+
+#lul {
+	list-style: none;
+	float: right;
+	margin: 20px;
+	margin-top: 10px;
+}
+
+nav{
+	position: relative;
+	background-color: black;
+	color: white;
+	height: 60px;
+	font-size: 20px;
+}
+
+body {
+	background-size: 100%;
+	background-image: url(fond.gif);
+	margin:0px;
+	margin-top: 80px;
+	margin-left: 150px;
+	margin-right:150px;
+}
+
+#twitch{
+	margin-left:150px;
+	margin-bottom: 10px;
+	display: inline-block;
+
+}
+
+#lecteur{
+	margin-right: 8px;
+	display: inline-block;
+}
+
+#logo{
+	width: 45px;
+	margin-top: -12px;
+	margin-right: -40px;
+}
+
+#youtube,#followMe{
+	width: 150px;
+	
+}
+
+#description{
+	margin:40px;
+	color:white;
+}
+
+#nav{
+	margin-top: -80px;
+	position: fixed;
+	width: 100%;
+	margin-left: -150px;
+}
+
+fieldset,#lien2{
+	margin-bottom: 30px;
+	margin-left: 100px;
+  	background-color:none;
+  	max-width:100%;
+  	padding:16px;
+  	border-radius:8px;	
+  	border:3px solid #28d244;	
+}
+#follow,#lien,#lien2{
+	display: inline;
+}
+
+#lien2:hover,#followMe:hover{
+	background-color: #28d244;
+}
+
+#banner{
+	width: 100%;
+	border:2px solid #28d244;
+	margin-bottom: 20px;
+}
+
+#contact{
+	margin-right: 100px;
+}
+
+form{
+	color: #28d244;
+	font-family: Helvetica;
+}
+
+textarea{
+	width: 100%;
+	font-family: Helvetica;
+	margin-bottom: 10px;
+}
+
+#envoyer{
+	border-color: #28d244;
+	background-color: #28d244;
+	color: white;
+	float: right;
+	margin-right: 30px;
+	font-weight: bold;
+}
+
+#annuler{
+	border-color: red;
+	background-color: red;
+	color: white;
+	float: right;
+	margin-left: 30px;
+	margin-right: 30px;
+	font-weight: bold;
+}
+
+#bug{
+	margin-top: -8px;
+	text-align: center;
+	color: white;
+}
+
+#nomformulaire{
+	margin-left: 22px;
+}
+
+#clock{
+	text-align: center;
+}
+
+#cadreclock,#cadreclock2{
+	border-radius: 50px;
+}
+
+#cadreclock2{
+	margin-right: 100px;
+}
