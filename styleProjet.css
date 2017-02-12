@@ -17,7 +17,9 @@
 	color: #28d244;
 	display: inline;
 	font-family: Helvetica;
+	font-weight: bold;
 	text-decoration: none;
+	font-size: 20px;
 }
 footer {
 	color : white;
