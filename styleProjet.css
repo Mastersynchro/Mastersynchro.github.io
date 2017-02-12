@@ -7,6 +7,12 @@
 	font-family: Helvetica;
 }
 
+.navi{
+	border-bottom: #28d244 solid 2px;
+	margin-bottom: 80px;
+	margin-top: 20px;
+}
+
 #live{
 	color: #28d244;
 	display: inline;
@@ -22,57 +28,43 @@ footer {
 	width:100%;
 	padding-top:50px;
 	height:30px;
-	margin-top: 200px;
+	margin-top: 60px;
+	margin-bottom: 20px;
 }
 
-#ta1{
+.ta1{
 	margin-left: 10px;
 	margin-right: 10px;
-	display: inline;
-	color : white;
-	font-family: Helvetica;
-	text-decoration: none;
-
+	float: right;
 }
 
-#ta1:hover{
+.ta1:hover{
 	cursor: pointer;
 }
 
-#lul {
+.lul {
 	list-style: none;
-	float: right;
 	margin: 20px;
 	margin-top: 10px;
+	display: inline-flex;
 }
 
-nav{
-	position: relative;
-	background-color: black;
-	color: white;
-	height: 60px;
-	font-size: 20px;
-}
 
 body {
 	background-size: 100%;
 	background-image: url(fond.gif);
 	margin:0px;
-	margin-top: 80px;
-	margin-left: 150px;
-	margin-right:150px;
 }
 
-#twitch{
-	margin-left:150px;
+.twitch{
 	margin-bottom: 10px;
-	display: inline-block;
+	display: block;
+	margin: auto;
 
 }
 
 #lecteur{
 	margin-right: 8px;
-	display: inline-block;
 }
 
 #logo{
@@ -81,44 +73,51 @@ body {
 	margin-right: -40px;
 }
 
-#youtube,#followMe{
+#followMe{
 	width: 150px;
 	
 }
+#youtube{
+	display: inline;	
+	width: 150px;
+}
 
 #description{
-	margin:40px;
+	margin: 40px 0px;
 	color:white;
 }
 
-#nav{
-	margin-top: -80px;
-	position: fixed;
-	width: 100%;
-	margin-left: -150px;
-}
-
-fieldset,#lien2{
+fieldset{
 	margin-bottom: 30px;
-	margin-left: 100px;
-  	background-color:none;
   	max-width:100%;
   	padding:16px;
   	border-radius:8px;	
   	border:3px solid #28d244;	
 }
-#follow,#lien,#lien2{
+
+.endclock{
+	margin-top: 10px;
+	width: 90%;
+}
+
+#follow,#lien{
 	display: inline;
 }
 
-#lien2:hover,#followMe:hover{
+.fieldsetsociaux:hover, #followMe:hover{
 	background-color: #28d244;
 }
 
 #banner{
-	width: 100%;
+	width: 80%;
 	border:2px solid #28d244;
 	margin-bottom: 20px;
+	display: block;
+	margin: auto;
+}
+
+.bannerwidth{
+	margin-bottom: 80px;
 }
 
 #contact{
@@ -176,3 +175,4 @@ textarea{
 #cadreclock2{
 	margin-right: 100px;
 }
+

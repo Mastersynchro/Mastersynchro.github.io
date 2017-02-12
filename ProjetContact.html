@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Mastersynchro/Contact</title>
-		<link href="styleProjet.css" rel="Stylesheet" type="text/css" />
+		<title>Mastersynchro | Contact</title>
 		<meta charset="utf-8" />
+		<meta name="description" content="L'endroit de rencontre de tous les fans des stream de Mastersynchro. Contactez-le ici"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+		<link href="styleProjet.css" rel="Stylesheet" type="text/css" />
 		<link href="twitch.png" rel="icon" type="image/png" />
 
 	</head>
 
 	<body>
-		<div id="nav">
-			<nav>
-				<p id="navigation"><a target="_blank" href="http://www.twitch.tv/mastersynchro"><img id="logo" src="twitch.png"></img></a></p>
-				<p id="navigation"><a target="_blank" id="live" href="index.html">LIVE</a></p>
-				<ul id="lul">
-					<li id="ta1"><a id="ta1" target="_blank" href="ProjetContact.html"><img id="youtube" src="contact.gif"></img></a></li>	
-					<li id="ta1"><a id="ta1" target="_blank" href="https://www.youtube.com/user/MonsterPandafull"><img id="youtube" src="youtube.gif"></img></a></li>
-					<li id="ta1"><a id="ta1" target="_blank" href="https://twitter.com/MonsterPandaful"><img id="youtube" src="twitter.gif"></img></a></li>
-				</ul>
+		<section class="container navi">
+		<div class="navbar-header">
+			<nav class="navbar">
+				<div class="col-md-4">
+					<p id="navigation"><a target="_blank" href="http://www.twitch.tv/mastersynchro"><img id="logo" src="twitch.png"></img></a></p>
+					<p id="navigation"><a id="live" href="index.html">LIVE</a></p>
+				</div>
+				<div class="col-md-4 col-md-offset-4">
+					<ul class="lul">
+						<li class="ta1"><a target="_blank" href="ProjetContact.html"><img id="youtube" src="contact.gif"></img></a></li>	
+						<li class="ta1"><a target="_blank" href="https://www.youtube.com/user/MonsterPandafull"><img id="youtube" src="youtube.gif"></img></a></li>
+						<li class="ta1"><a target="_blank" href="https://twitter.com/MonsterPandaful"><img id="youtube" src="twitter.gif"></img></a></li>
+					</ul>
+				</div>
 			</nav>
 		</div>
+	</section>
 
+	<section class="container-fluid bannerwidth">
 		<img id="banner" src="banner.jpg"></img>
+	</section>
 
+	<section class="container">
 		<div id="contacter">
 			<fieldset id="contact">
 				<form action="mailto:guillaume.bavoux@supinfo.com" method="post" ENCTYPE="text/plain">
@@ -36,12 +47,16 @@
 				</form>
 			</fieldset>
 		</div>
+	</section>
+
+	<section class="container-fluid endclock">
 		<div id="clock">
-			<fieldset id="cadreclock2">
+			<fieldset id="cadreclock">
 				<canvas id="canvas" width="500" height="500"></canvas>
 				<script id"monimage" src="ProjetAnime.js"></script>
 			</fieldset>
   		</div>
+  	</section>
 
 	</body>
 
